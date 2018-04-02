@@ -50,6 +50,19 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.person-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.person-role {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #f05f40;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 section {
   padding: 8rem 0;
 }
