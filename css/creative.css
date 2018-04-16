@@ -179,6 +179,51 @@ img::-moz-selection {
   }
 }
 
+.accent-nav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.accent-nav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.accent-nav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+.accent-nav .navbar-nav > li.nav-item > a.nav-link,
+.accent-nav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+}
+
+.accent-nav .navbar-nav > li.nav-item > a.nav-link:hover,
+.accent-nav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+.accent-nav .navbar-nav > li.nav-item > a.nav-link.active,
+.accent-nav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+.accent-nav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+.accent-nav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -300,9 +345,10 @@ header.masthead p {
 
 .btn {
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;
+  font-weight: 700;
   border: none;
-  border-radius: 300px;
+  border-radius: 300px; */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
